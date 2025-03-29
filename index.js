@@ -5,6 +5,7 @@ const dotenv = require("dotenv").config();
 const errorHandler = require("./middleware/errorHandler.js");
 const connectdb = require("./config/dbconnection");
 const userRegistration=require("./routes/userRoutes");
+
 const PORT = process.env.PORT || 3000;
 
 connectdb();
