@@ -8,13 +8,13 @@ To install and run this project locally, follow these steps:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/Kunj-Tyagi/WanderLust.git
+    git clone https://github.com/Kunj-Tyagi/GrowthGear.git
     ```
 
 2. Navigate to the project directory:
 
     ```sh
-    cd WanderLust
+    cd GrowthGear
     ```
     
 3. Install the dependencies:
