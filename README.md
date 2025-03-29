@@ -27,7 +27,7 @@ To install and run this project locally, follow these steps:
 5. Start the development server:
 
     ```sh
-    node app.js
+    node index.js
     ```
 
 6. Open your browser and go to `http://localhost:3000`.
