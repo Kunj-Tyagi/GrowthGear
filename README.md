@@ -35,4 +35,3 @@ To install and run this project locally, follow these steps:
 
 # Documentation of API
 - API [Testing API](https://documenter.getpostman.com/view/37282369/2sB2cPjQub)
-7. - GitHub: [Kunj-Tyagi](https://github.com/Kunj-Tyagi)
