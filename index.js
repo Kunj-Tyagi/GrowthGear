@@ -14,6 +14,10 @@ app.use("/api/users",userRegistration);
 app.use("/api", queryRoutes);
 app.use(errorHandler);
 
+app.get('/', (req, res) => {
+  return res.status(201).json({ msg: "Server is Live!!🚀" })
+})
+
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
