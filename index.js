@@ -5,6 +5,7 @@ const dotenv = require("dotenv").config();
 const errorHandler = require("./middleware/errorHandler.js");
 const connectdb = require("./config/dbconnection");
 const userRegistration=require("./routes/userRoutes");
+const asyncHandler = require("express-async-handler");
 
 const PORT = process.env.PORT || 3000;
 
@@ -14,9 +15,9 @@ app.use("/api/users",userRegistration);
 app.use("/api", queryRoutes);
 app.use(errorHandler);
 
-app.get('/', (req, res) => {
+app.get('/', asyncHandler(async(async(req, res) => {
   return res.status(201).json({ msg: "Server is Live!!🚀" })
-})
+})))
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
