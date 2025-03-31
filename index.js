@@ -15,7 +15,7 @@ app.use("/api/users",userRegistration);
 app.use("/api", queryRoutes);
 app.use(errorHandler);
 
-app.get('/', asyncHandler(async(async(req, res) => {
+app.get('/', asyncHandler((async(req, res) => {
   return res.status(201).json({ msg: "Server is Live!!🚀" })
 })))
 
